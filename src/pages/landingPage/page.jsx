@@ -23,9 +23,9 @@ export default function LandingPage() {
                     </div>
                     <img src="/Top Of Podium 2.png" alt="Hero" className={styles.heroImage} />
                     <Link href='/loginPage/page'>
-                        <a>
+                        
                             <button className={styles.joinButton}>Join a chapter</button>
-                        </a>
+                        
                     </Link>
                 </section>
 
@@ -53,9 +53,9 @@ export default function LandingPage() {
                 <footer className={styles.footer}>
                     <p>and guess what <br /><span className={styles.more}> there's many more </span> for you.......</p>
                     <Link href="/loginPage/page">
-                        <a>
+                        
                             <button className={styles.joinButton}>Join a chapter</button>
-                        </a>
+                        
                     </Link>
                 </footer>
             </main>
