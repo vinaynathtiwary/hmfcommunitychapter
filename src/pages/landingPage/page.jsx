@@ -1,4 +1,7 @@
+"use client"
+import Link from 'next/link';
 import styles from '../../css/landingPage.module.css';
+import Login from '../loginPage/page';
 
 export default function LandingPage() {
     return (
@@ -43,7 +46,9 @@ export default function LandingPage() {
                 </section>
                 <footer className={styles.footer}>
                     <p>and guess what <br /><span className={styles.more}> there's many more </span> for you.......</p>
-                    <button className={styles.joinButton}>Join a chapter</button>
+                    <Link href="/loginPage/page.jsx" className={styles.joinButton}>
+                         Join a chapter
+                    </Link>
                 </footer>
             </main>
         </div>
