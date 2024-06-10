@@ -26,6 +26,7 @@
   font-size: 20px;
   position: relative;
   padding: 20px; /* Add some padding for better spacing */
+  color: black;
 }
 
 .heroText {
@@ -47,6 +48,7 @@
   width: 80%;
   text-align: center;
   font-weight: 100;
+  color: black;
 }
 
 .mainLineTop {
@@ -111,6 +113,7 @@
   font-weight: 500;
   font-size: 25px;
   margin-bottom: 30px;
+  color: black;
 }
 
 .benefits {
@@ -152,6 +155,7 @@
   font-size: medium;
   text-align: start;
   transition: font-size 0.3s ease; /* Add transition for smooth font size change */
+  color: black;
 }
 
 .benefitImage {
