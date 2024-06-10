@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from 'next/link';
 import styles from '../../css/landingPage.module.css';
 import Login from '../loginPage/page';
@@ -22,8 +22,13 @@ export default function LandingPage() {
                         </div>
                     </div>
                     <img src="/Top Of Podium 2.png" alt="Hero" className={styles.heroImage} />
-                    <button className={styles.joinButton}>Join a chapter</button>
+                    <Link href='/loginPage/page'>
+                        <a>
+                            <button className={styles.joinButton}>Join a chapter</button>
+                        </a>
+                    </Link>
                 </section>
+
                 <section className={styles.benefitsSection}>
                     <h3>What's in for you?</h3>
                     <div className={styles.benefits}>
@@ -44,10 +49,13 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </section>
+
                 <footer className={styles.footer}>
                     <p>and guess what <br /><span className={styles.more}> there's many more </span> for you.......</p>
                     <Link href="/loginPage/page">
-                        <button className={styles.joinButton}>Join a chapter</button>
+                        <a>
+                            <button className={styles.joinButton}>Join a chapter</button>
+                        </a>
                     </Link>
                 </footer>
             </main>
