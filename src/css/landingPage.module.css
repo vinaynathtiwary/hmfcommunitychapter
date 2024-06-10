@@ -149,6 +149,7 @@
   width: 90%;
   font-weight: 600;
   transition: font-size 0.3s ease; /* Add transition for smooth font size change */
+  color: black;
 }
 
 .benefitItem p {
@@ -174,6 +175,7 @@
   margin-bottom: 50px;
   padding: 20px; /* Add some padding for better spacing */
   font-weight: 500;
+  color: black;
 }
 
 .more {
