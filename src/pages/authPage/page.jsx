@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from 'react';
 import { TextField, Button, Container, Grid, Typography, Box } from '@mui/material';
 import styles from '../../css/authPage.module.css';
@@ -13,7 +13,7 @@ const Auth = () => {
         const password = data.password;
         const confirmPassword = data.confirmPassword;
         console.log(data);
-        console.log("Vinay");
+
         // Validate password
         if (password.length < 8) {
             alert('Password must be at least 8 characters long.');

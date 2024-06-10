@@ -1,22 +1,30 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     color: black;
+   
 }
 
 .header {
     background-color: black;
     color: white;
     text-align: start;
-    
-}
-
-.header {
     padding: 20px;
 }
 
-.mainBody{
+.mainBody {
     display: flex;
     flex: 1;
     height: calc(100vh - 40px); /* Subtract header and footer height */
@@ -32,8 +40,6 @@
     padding-left: 60px;
     flex: 1;
 }
-
-
 
 .rightSide {
     display: flex;
@@ -116,27 +122,36 @@
     background-color: #f3c623;
 }
 
+.loginLink {
+    color: #f3c623;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .mainBody {
         flex-direction: column;
-    }
-    .leftSide {
-        order: 1; /* Change order to move leftSide to top */
-    }
-    .rightSide {
-        order: 2; /* Change order to move rightSide to bottom */
+        padding: 0;
+        margin: 0;
     }
 
-    .description {
-        font-size: 1rem;
-        margin-bottom: 20px;
-        width: 500px;
+    .leftSide {
+        order: 1; /* Change order to move leftSide to top */
+        padding: 0; /* Remove padding */
+    }
+
+    .rightSide {
+        order: 2; /* Change order to move rightSide to bottom */
+        padding: 0; /* Remove padding */
     }
 
     .description {
         width: 100%; /* Make the description full width on smaller screens */
         font-size: 0.9rem; /* Optionally decrease font size for better readability */
-        padding: 0 20px; /* Add padding for better spacing */
+        padding: 0; /* Remove padding */
+        text-align: left; /* Align text to the left */
+    }
+
+    .heroSection {
+        text-align: left; /* Align hero section text to the left */
     }
 }
