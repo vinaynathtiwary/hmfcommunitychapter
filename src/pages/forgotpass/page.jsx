@@ -1,6 +1,6 @@
 // pages/forgot-password.js
 
-import ForgotPassword from '../src/components/forgotPassword';
+import ForgotPassword from '../../components/forgotpass';
 
 const ForgotPasswordPage = () => {
     return <ForgotPassword />;

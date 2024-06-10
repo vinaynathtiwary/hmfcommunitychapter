@@ -46,8 +46,8 @@ export default function LandingPage() {
                 </section>
                 <footer className={styles.footer}>
                     <p>and guess what <br /><span className={styles.more}> there's many more </span> for you.......</p>
-                    <Link href="/loginPage/page.jsx" className={styles.joinButton}>
-                         Join a chapter
+                    <Link href="/loginPage/page">
+                        <button className={styles.joinButton}>Join a chapter</button>
                     </Link>
                 </footer>
             </main>

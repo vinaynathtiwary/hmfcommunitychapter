@@ -9,9 +9,9 @@ import ForgotPassword from "@/components/forgotpass";
 export default function Home() {
   return (
     <div>
-      {/* <LandingPage/> */}
+      <LandingPage/>
       {/* <Auth/> */}
-      <Login/>
+      {/* <Login/> */}
       {/* <Payment/> */}
       {/* <VerifyPayment/> */}
       {/* <ForgotPassword/> */}

@@ -160,7 +160,7 @@ const Auth = () => {
                             <Box mt={2}>
                                 <Typography component="p">
                                     Already have an account?{' '}
-                                    <Link href="/login">
+                                    <Link href="/loginPage/page">
                                         <Typography component="span" className={styles.loginLink}>
                                             Login
                                         </Typography>

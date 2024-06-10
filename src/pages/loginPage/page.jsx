@@ -96,7 +96,7 @@ const Login = () => {
                             <Box mt={2}>
                                 <Typography component="p">
                                     Don't have an account?{' '}
-                                    <Link href="/auth">
+                                    <Link href="/authPage/page">
                                         <Typography component="span" className={styles.loginLink}>
                                             Register
                                         </Typography>
@@ -106,7 +106,7 @@ const Login = () => {
                             <Box mt={2}>
                                 <Typography component="p">
                                     Forgot your password?{' '}
-                                    <Link href="/forgot-password">
+                                    <Link href="/forgotpass/page">
                                         <Typography component="span" className={styles.loginLink}>
                                             Reset Password
                                         </Typography>
